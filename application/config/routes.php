@@ -56,3 +56,4 @@ $route['404_override'] = '';
 $route['history'] = 'stockHistory';
 $route['login'] = 'login';
 $route['player/(:any)'] = "PlayerStatus/index/$1";
+//these are comments
