@@ -12,7 +12,8 @@ class StockHistory extends Application {
      * The main method of the stock history page. determines the stock for which
      * data is to be displayed, then calls the transaction() movement() methods
      * to display the relevent info.
-     */    
+     */
+    //rename from StockHistory to Stockhistory 
     public function index()
 	{
             if($this->input->post('stockSelector') != NULL)
